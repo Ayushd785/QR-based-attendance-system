@@ -1,0 +1,20 @@
+cat > .gitignore <<'EOF'
+# node modules anywhere
+**/node_modules/
+
+# env files
+**/.env
+
+**/.git/
+
+# build outputs
+**/dist/
+**/build/
+
+# logs
+*.log
+**/*.log
+
+# OS files
+.DS_Store
+EOF
